@@ -1,0 +1,155 @@
+/* ------- INITIAL ------- */
+
+body, header, section, footer, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-size: 16px;
+    background: #cce6ff;
+}
+
+section {
+    margin-top: 89px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------- HEADER ------- */
+
+header {
+    background: url("../header-bg.png") 0 80%;
+    border-bottom: 2px solid #002db3;
+    height: 68px;
+    position: relative;
+    width: 100%;    
+}
+
+.header-content {
+    margin: 0 100px;
+}
+
+.header-left {
+    float: left;
+    width: 20%;
+}
+
+.header-right {
+    float: right;
+}
+
+.logo {
+    color: #fff;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2em;
+}
+
+.menu {
+    margin: 24px 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu li:last-of-type {
+    margin-right: 0;
+}
+
+.menu .menu-link {
+    color: #fff;
+}
+
+/* ------- CONTENT ------- */
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.home-page-logo {
+    color: #002db3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 10em;
+    margin-top: 234px;
+    text-align: center;
+}
+
+/* ------- FOOTER ------- */
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.credentials {
+    font-size: 10px;
+    float: right;
+    margin: 12px;
+}
+
+/* ------- TISHOS ------- */
+  
+  #l-points {
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 20%;
+      height: 100%;
+      display: none;
+  }
+  
+  #l-game {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 80%;
+      height: 100%;
+  }
+  
+  input {
+      width: 40%;
+  }
+  
+  #l-round,
+  #l-txt {
+      display: none;
+  }
+  
+  #l-txt {
+      position: fixed;
+      bottom: 10%;
+      left: 10%;
+      width: 100%;
+  }
+  
+  .active {
+      color: red;
+  }
+  
+  #l-round {
+      position: absolute;
+      top: 25%;
+      left: 25%;
+      font-size: 4em;
+  }
+  
+  #l-info {
+      position: absolute;
+      right: 0;
+      bottom: 10%;
+  }
+  
+  .delim {
+      height: 30px;
+  }
